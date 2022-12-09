@@ -4,7 +4,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-in main(void)
+int main(void)
 {
 	int ch = 'a';
        while (ch <= 'z')
