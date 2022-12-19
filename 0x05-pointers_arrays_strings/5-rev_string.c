@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h" 
+#include "main.h"
 
 /**
  * rev_string - This function prints a string in reverse order
@@ -13,8 +13,8 @@ void rev_string(char *s)
 
 	for (len = 0; s[len] != '\0'; len++)
 		;
-	i =0;
-	half = len/2;
+	i = 0;
+	half = len / 2;
 
 	while (half--)
 	{
